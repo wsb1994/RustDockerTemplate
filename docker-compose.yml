@@ -1,0 +1,5 @@
+version: "3.3"  # optional since v1.27.0
+services:
+  docker-app:
+    build: ./docker_container_app
+    network_mode: bridge
